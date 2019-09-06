@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sample Web Component</title>
+    <script>
+        class MyCustomElement extends HTMLElement{
+            constructor(){
+                super();
+                console.log("My Custom Element constructed!");
+            }
+            //3 Lifecycle hooks are present in any web component
+            //When a custom component is attached to the DOM connectedCallback() is called.
+            connectedCallback() {
+                console.log("My custom Element attached to the DOM!");
+            }
+            
+            static get observedAttributes() {
+                return ["demo"];
+            }
+            //When a custom component attribute is changed attributeChangedCallback() is called.
+            attributeChangedCallback(name, oldValue, newValue) {
+                console.log("Attribute Changed", name, oldValue, newValue)
+            }
+            //When a custom component is removed from the DOM disconnectedCallback() is called.
+            disconnectedCallback() {
+                console.log("My Custom Element removed from the DOM!");
+            }
+        }
+        window.customElements.define("my-custom-element", MyCustomElement);
+    </script>
+</head>
+<body>
+        <script>
+            let $ce = document.createElement("my-custom-element");
+            setTimeout(() => {
+                document.body.appendChild($ce);
+            }, 3000)
+        </script>
+</body>
+</html>

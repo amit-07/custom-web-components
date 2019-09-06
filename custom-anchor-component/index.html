@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom Anchor Element</title>
+    <script>
+        class CustomAnchor extends HTMLAnchorElement{
+            connectedCallback() {
+                this.addEventListener("click", e => {
+                    e.preventDefault();
+                    const result = confirm("Are you Sure");
+                    if(result){
+                        window.location.href = e.target.href;
+                    }
+                });
+            }
+        }
+        window.customElements.define("custom-anchor", CustomAnchor, { extends: "a" });
+    </script>
+</head>
+<body>
+    <!-- "is" Attribute is required if we want to intercept the native behaviour of the native HTML element 
+        like <a> tag in this case.
+    -->
+    <a is="custom-anchor" href="http://www.google.com">Go to Google</a>
+</body>
+</html>

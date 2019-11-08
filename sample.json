@@ -1,0 +1,209 @@
+{
+    "column_definition": {
+      "0": {
+        "property": "display_key",
+        "title": "Country"
+      },
+      "1": {
+        "property": "text",
+        "title": ""
+      }
+    },
+    "root": {
+      "0": {
+        "0": {
+          "0": {
+            "display_key": "8",
+            "text": "Belgium",
+            "value": "000000000000000000000000000008"
+          },
+          "1": {
+            "display_key": "18",
+            "text": "Czech Republic",
+            "value": "000000000000000000000000000018"
+          },
+          "2": {
+            "display_key": "19",
+            "text": "Denmark",
+            "value": "000000000000000000000000000019"
+          },
+          "3": {
+            "display_key": "23",
+            "text": "England",
+            "value": "000000000000000000000000000023"
+          },
+          "4": {
+            "display_key": "24",
+            "text": "Finland",
+            "value": "000000000000000000000000000024"
+          },
+          "5": {
+            "display_key": "25",
+            "text": "France",
+            "value": "000000000000000000000000000025"
+          },
+          "6": {
+            "display_key": "26",
+            "text": "Germany",
+            "value": "000000000000000000000000000026"
+          },
+          "7": {
+            "display_key": "27",
+            "text": "Greece",
+            "value": "000000000000000000000000000027"
+          },
+          "8": {
+            "display_key": "28",
+            "text": "Hungary",
+            "value": "000000000000000000000000000028"
+          },
+          "9": {
+            "display_key": "31",
+            "text": "Ireland",
+            "value": "000000000000000000000000000031"
+          },
+          "10": {
+            "display_key": "37",
+            "text": "Luxembourg",
+            "value": "000000000000000000000000000037"
+          },
+          "11": {
+            "display_key": "42",
+            "text": "Netherlands",
+            "value": "000000000000000000000000000042"
+          },
+          "display_key": "EUROPE",
+          "state": "E",
+          "text": "EUROPE",
+          "value": "HIERARCHY_NODE/0HIER_NODE/EUROPE"
+        },
+        "1": {
+          "0": {
+            "display_key": "13",
+            "text": "Canada",
+            "value": "000000000000000000000000000013"
+          },
+          "1": {
+            "display_key": "67",
+            "text": "USA",
+            "value": "000000000000000000000000000067"
+          },
+          "display_key": "NORTH_AMERICA",
+          "state": "E",
+          "text": "NORTH_AMERICA",
+          "value": "HIERARCHY_NODE/0HIER_NODE/NORTH_AMERICA"
+        },
+        "2": {
+          "0": {
+            "display_key": "3",
+            "text": "Australia",
+            "value": "000000000000000000000000000003"
+          },
+          "1": {
+            "display_key": "6",
+            "text": "Bangladesh",
+            "value": "000000000000000000000000000006"
+          },
+          "2": {
+            "display_key": "15",
+            "text": "China",
+            "value": "000000000000000000000000000015"
+          },
+          "3": {
+            "display_key": "30",
+            "text": "Indonesia",
+            "value": "000000000000000000000000000030"
+          },
+          "4": {
+            "display_key": "35",
+            "text": "Japan",
+            "value": "000000000000000000000000000035"
+          },
+          "5": {
+            "display_key": "38",
+            "text": "Malaysia",
+            "value": "000000000000000000000000000038"
+          },
+          "6": {
+            "display_key": "41",
+            "text": "Nepal",
+            "value": "000000000000000000000000000041"
+          },
+          "7": {
+            "display_key": "50",
+            "text": "Philippines",
+            "value": "000000000000000000000000000050"
+          },
+          "8": {
+            "display_key": "58",
+            "text": "Singapore",
+            "value": "000000000000000000000000000058"
+          },
+          "9": {
+            "display_key": "63",
+            "text": "Thailand",
+            "value": "000000000000000000000000000063"
+          },
+          "display_key": "ASIA_PAC",
+          "state": "E",
+          "text": "ASIA_PAC",
+          "value": "HIERARCHY_NODE/0HIER_NODE/ASIA_PAC"
+        },
+        "3": {
+          "0": {
+            "display_key": "36",
+            "text": "Kenya",
+            "value": "000000000000000000000000000036"
+          },
+          "1": {
+            "display_key": "47",
+            "text": "Pakistan",
+            "value": "000000000000000000000000000047"
+          },
+          "2": {
+            "display_key": "56",
+            "text": "Saudi Arabia",
+            "value": "000000000000000000000000000056"
+          },
+          "3": {
+            "display_key": "59",
+            "text": "South Africa",
+            "value": "000000000000000000000000000059"
+          },
+          "4": {
+            "display_key": "64",
+            "text": "Turkey",
+            "value": "000000000000000000000000000064"
+          },
+          "5": {
+            "display_key": "66",
+            "text": "United Arab Emirates",
+            "value": "000000000000000000000000000066"
+          },
+          "6": {
+            "display_key": "71",
+            "text": "Zimbabwe",
+            "value": "000000000000000000000000000071"
+          },
+          "display_key": "MIDDLE_EAST",
+          "state": "E",
+          "text": "MIDDLE_EAST",
+          "value": "HIERARCHY_NODE/0HIER_NODE/MIDDLE_EAST"
+        },
+        "display_key": "WORLD",
+        "state": "E",
+        "text": "WORLD",
+        "value": "HIERARCHY_NODE/0HIER_NODE/WORLD"
+      },
+      "36": {
+        "0": {
+          "value": "Loading"
+        },
+        "display_key": "REST_H",
+        "state": "C",
+        "text": "Not Assigned Country (s)",
+        "value": "HIERARCHY_NODE/1HIER_REST/REST_H"
+      },
+      "value": "root"
+    }
+  }
